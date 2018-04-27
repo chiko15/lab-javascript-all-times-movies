@@ -1,6 +1,12 @@
+var movies = require("./data.js");
+console.log(movies);
 /* eslint no-restricted-globals: 'off' */
 // Turn duration of the movies from hours to minutes 
 
+var turnHoursToMinutes = movies.map(function(duration){
+    return duration * 60;
+    
+})
 
 // Get the average of all rates with 2 decimals 
 
